@@ -239,7 +239,19 @@ h1 {
     width: 50px;
     height: 50px;
   }
+  
 }
+@media (max-width: 768px) {
+  .double-container {
+    flex-direction: column;
+    align-items: center; /* Це допоможе вирівняти зображення по центру */
+  }
+
+  .image-right {
+    margin-top: 20px; /* Додайте відступ між текстом і зображенням */
+  }
+}
+
 
 @media (min-width: 1024px) {
   .img-to-top-btn {
