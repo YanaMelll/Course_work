@@ -90,6 +90,7 @@ h1 {
 
 /* Стилі для хідера */
 .site-header {
+  position: relative;
   font-size: 16px;
   font-weight: 600;
   background-color: #599AE3;
@@ -97,7 +98,6 @@ h1 {
   padding: 15px 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 999999;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -111,10 +111,12 @@ h1 {
 
 .sticky + .content {
   padding-top: 102px;
+  
 }
 
 .site-header .container {
   display: flex;
+  
   justify-content: space-between;
   align-items: center;
 }
@@ -327,6 +329,7 @@ h1 {
 
 .list li:hover {
   transform: scale(1.01);
+  z-index: 5;
 }
 
 @media (min-width: 40em) {
