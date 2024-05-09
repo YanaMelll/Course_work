@@ -12,7 +12,6 @@ wbr:after {
   content: "-";
 }
 
-
 .container img {
   width: 100%;
   height: auto;
@@ -30,9 +29,9 @@ wbr:after {
 }
 .container-img img {
   padding-top: 20px;
-  width: 100%; /* Зробити картинку на всю ширину контейнера */
+  width: 100%; 
   height: auto;
-  max-width: 100%; /* Не дозволяти картинці розтягуватися більше за її оригінальний розмір */
+  max-width: 100%; 
 }
 .container {
   width: 90%;
@@ -166,7 +165,6 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* Стилі для випадаючого меню */
 .menu-item.dropdown {
   position: relative;
 }
@@ -204,7 +202,6 @@ h1 {
   color: #1554dbb3;
 }
 
-/* Стилі для футера */
 .site-footer {
   font-size: 14pt;
   background-color: #56A6E8C0;
@@ -237,7 +234,6 @@ h1 {
   justify-content: center;
 }
 
-/* Стилі для кнопки "Догори" */
 .img-to-top-btn {
   position: fixed;
   bottom: 20px;
@@ -260,20 +256,19 @@ h1 {
 @media (max-width: 768px) {
   .double-container {
     flex-direction: column;
-    align-items: center; /* Це допоможе вирівняти зображення по центру */
+    align-items: center; 
   }
 
   .image-right {
-    margin-top: 20px; /* Додайте відступ між текстом і зображенням */
+    margin-top: 20px;
   }
   .logo img {
-    min-width: 50px; /* Зменште максимальну ширину логотипу для мобільних пристроїв */
+    min-width: 50px;
   }
   .about-img{
     max-width: 100% !important;
   }
 }
-
 
 @media (min-width: 1024px) {
   .img-to-top-btn {
